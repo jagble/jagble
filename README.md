@@ -4,7 +4,7 @@
 
 - <b>osTicket (Help Desk Ticketing System)</b>
   - [osTicket: Prerequisites and Installation](https://github.com/jagble/osticket-prereqs)
-  - [osTicket: Post-Installation Configuration](https://github.com/jagble/post-install-config)
+  - [osTicket: Post-Installation Configuration](https://github.com/jagble/osticket-post-installaion)
   - [osTicket: Ticket Lifecycle Examples](https://github.com/jagble/ticket-lifecycle)
 - <b>Microsoft Azure</b>
   - [Configuring Active Directory within Azure VMs](https://github.com/jagble/configure-ad)
