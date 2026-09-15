@@ -4,8 +4,8 @@
 
 <a href="https://linkedin.com/in/josh-agble-87384a29b/"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=0A66C2&center=true&vCenter=true&width=520&lines=IT+Professional;Aspiring+Cybersecurity+Analyst;Banking+%2B+Systems+Background" /></a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/josh-agble-87384a29b/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:agblejoshuak@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joshagble/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joshuaagble@gmail.com)
 
 </div>
 
@@ -70,6 +70,6 @@ Deployed and configured Active Directory on Azure VMs, then inspected NSGs and n
 
 <div align="center">
 
-📫 **agblejoshuak@gmail.com**
+📫 **joshuaagble@gmail.com**
 
 </div>
