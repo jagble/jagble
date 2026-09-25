@@ -16,7 +16,7 @@
 - Bachelor of Science in Information Technology
 - I build home-lab projects to practice real sysadmin, networking, and ticketing workflows end to end
 - Building toward Tier 1 SOC, help desk, and DoD-adjacent IT roles
-- Currently sharpening PowerShell automation and network security skills
+- Currently sharpening AI, Python automation and network security skills
 - Customer Service Representative at **Blue Ridge Bank**, bringing real banking-systems experience into IT
 
 ---
