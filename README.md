@@ -15,13 +15,13 @@
 
 - Bachelor of Science in Information Technology
 - I build home-lab projects to practice real sysadmin, networking, and ticketing workflows end to end
-- Building toward Tier 1 SOC, help desk, and DoD-adjacent IT roles
+- Building toward IAM, System Administration, and SOC Operation IT roles
 - Currently sharpening AI, Python automation and network security skills
 - Customer Service Representative at **Blue Ridge Bank**, bringing real banking-systems experience into IT
 
 ---
 
-### 💻 Featured Projects
+### Featured Projects
 
 **osTicket — Help Desk Ticketing System**
 End-to-end help desk environment: install, configure, and simulate real ticket lifecycles.
