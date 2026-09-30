@@ -4,7 +4,7 @@
 
 - 🛡️ **CompTIA Security+**
 - 📘 **Microsoft SC-300**, Identity and Access Administrator (in progress)
-- 🎓 **B.S. Information Technology**, Western Governors University (October 2026)
+- 🎓 **B.S. Information Technology**
 - 🎯 **Focus areas:** Identity lifecycle, access control, authentication, and automation
 
 ---
