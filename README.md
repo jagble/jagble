@@ -1,8 +1,8 @@
 # Hi, I'm Josh Agble
 
-**IAM Analyst** who builds hands-on identity and access management labs in Microsoft Azure, covering Active Directory, Entra ID, access policies, and PowerShell automation.
+**Cybersecurity Analyst** focused on **Identity and Access Management (IAM)**. I build hands-on labs in Microsoft Azure covering Active Directory, Entra ID, access policies, and PowerShell automation.
 
-- 🛡️ **CompTIA Security+** (DoD 8570/8140 IAT Level II)
+- 🛡️ **CompTIA Security+**
 - 📘 **Microsoft SC-300**, Identity and Access Administrator (in progress)
 - 🎓 **B.S. Information Technology**, Western Governors University (October 2026)
 - 🎯 **Focus areas:** Identity lifecycle, access control, authentication, and automation
