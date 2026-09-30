@@ -1,75 +1,38 @@
-<div align="center">
+# Hi, I'm Josh Agble
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:1B2735&height=180&section=header&text=Josh%20Agble&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=IT%20Professional%20%E2%80%A2%20Bachelor%20of%20Science%20in%20Information%20Technology&descAlignY=58&descSize=18" />
+**IAM Analyst** who builds hands-on identity and access management labs in Microsoft Azure, covering Active Directory, Entra ID, access policies, and PowerShell automation.
 
-<a href="https://linkedin.com/in/josh-agble-87384a29b/"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=0A66C2&center=true&vCenter=true&width=520&lines=IT+Professional;Cybersecurity+Analyst;Banking+%2B+Systems+Background" /></a>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joshagble/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joshuaagble@gmail.com)
-
-</div>
+- 🛡️ **CompTIA Security+** (DoD 8570/8140 IAT Level II)
+- 📘 **Microsoft SC-300**, Identity and Access Administrator (in progress)
+- 🎓 **B.S. Information Technology**, Western Governors University (October 2026)
+- 🎯 **Focus areas:** Identity lifecycle, access control, authentication, and automation
 
 ---
 
-### 👋 About Me
+## Featured Projects
 
-- Bachelor of Science in Information Technology
-- I build home-lab projects to practice real sysadmin, networking, and ticketing workflows end to end
-- Building toward IAM, System Administration, and SOC Operation IT roles
-- Currently sharpening AI, Python automation and network security skills
-- Customer Service Representative at **Blue Ridge Bank**, bringing real banking-systems experience into IT
-
----
-
-### Featured Projects
-
-**osTicket — Help Desk Ticketing System**
-End-to-end help desk environment: install, configure, and simulate real ticket lifecycles.
-- [Prerequisites & Installation](https://github.com/jagble/osticket-prereqs)
-- [Post-Installation Configuration](https://github.com/jagble/osticket-post-installaion)
-- [Ticket Lifecycle Examples](https://github.com/jagble/osticket-ticket-simulation)
-
-**Microsoft Azure — Networking & Active Directory**
-Deployed and configured Active Directory on Azure VMs, then inspected NSGs and network protocols with Wireshark.
-- [Configuring Active Directory within Azure VMs](https://github.com/jagble/configure-ad)
-- [Network Security Groups (NSGs) & Protocol Inspection](https://github.com/jagble/Azure-Compute-and-Networking)
+| Project | What I built | Tools |
+|---|---|---|
+| **[Active Directory Lab](https://github.com/jagble/configure-ad)** | Deployed a Windows Server domain controller in Azure, bulk-created 10,000+ user accounts with PowerShell, and enforced account lockout and access policies with Group Policy. | Azure, Windows Server, Active Directory, PowerShell, Group Policy |
+| **[osTicket Help Desk](https://github.com/jagble/osticket-prereqs)** | Built a help desk ticketing system from scratch with SLA tiers, routing, and escalation, then worked tickets from intake to resolution. <br> [Setup](https://github.com/jagble/osticket-prereqs) · [Configuration](https://github.com/jagble/osticket-post-installaion) · [Ticket Lifecycle](https://github.com/jagble/osticket-ticket-simulation) | Azure, Windows Server, osTicket |
+| **[Azure Networking & Packet Analysis](https://github.com/jagble/Azure-Compute-and-Networking)** | Deployed VMs in Azure and used Wireshark to inspect DNS, DHCP, ICMP, RDP, and SSH traffic and test Network Security Group rules. | Azure, Wireshark, NSGs |
 
 ---
 
-### 🎓 Certifications
+## Certifications
 
-![CompTIA A+](https://img.shields.io/badge/CompTIA%20A%2B-EE0000?style=flat-square)
-![CompTIA Network+](https://img.shields.io/badge/CompTIA%20Network%2B-EE0000?style=flat-square)
-![CompTIA Security+](https://img.shields.io/badge/CompTIA%20Security%2B-EE0000?style=flat-square)
-![ITIL 4 Foundation](https://img.shields.io/badge/ITIL%204%20Foundation-0052CC?style=flat-square)
-![Linux Essentials](https://img.shields.io/badge/Linux%20Essentials-FCC624?style=flat-square&logo=linux&logoColor=black)
+![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-C8202F?style=flat-square)
+![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-C8202F?style=flat-square)
+![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-C8202F?style=flat-square)
+![CompTIA Cloud+](https://img.shields.io/badge/CompTIA-Cloud%2B-C8202F?style=flat-square)
+![ITIL 4 Foundation](https://img.shields.io/badge/ITIL%204-Foundation-5A2D82?style=flat-square)
+![Linux Essentials](https://img.shields.io/badge/LPI-Linux%20Essentials-333333?style=flat-square)
 
----
-
-### 🛠️ Skills & Tools
-
-![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=flat-square&logo=windows&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D6?style=flat-square&logo=microsoft&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft%20Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Networking](https://img.shields.io/badge/Networking-TCP%2FIP-333333?style=flat-square)
+*In progress: Microsoft SC-300 (Identity and Access Administrator) · AWS Certified Cloud Practitioner*
 
 ---
 
-### 📊 GitHub Stats
+## Contact
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jagble&show_icons=true&hide_title=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jagble&layout=compact&hide_title=true" />
-</div>
-
----
-
-<div align="center">
-
-📫 **joshuaagble@gmail.com**
-
-</div>
+[![Email](https://img.shields.io/badge/Email-joshuaagble%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:joshuaagble@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-joshagble-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/joshagble/)
