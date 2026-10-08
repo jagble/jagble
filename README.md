@@ -15,7 +15,6 @@ I build IAM labs, break them, fix them, and document all of it.
 ![ITIL 4 Foundation](https://img.shields.io/badge/ITIL%204-Foundation-5A2D82?style=flat-square)
 <br><sub>In progress: Microsoft SC-300 (Identity and Access Administrator)</sub>
 
-*In progress: Microsoft SC-300 (Identity and Access Administrator)*
 
 ---
 
