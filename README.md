@@ -6,13 +6,14 @@ I build IAM labs, break them, fix them, and document all of it.
 
 🎓 B.S. Information Technology (WGU) 
 
-[![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-C8202F?style=for-the-badge)](CREDLY_SECURITY_PLUS)
-[![CompTIA Cloud+](https://img.shields.io/badge/CompTIA-Cloud%2B-C8202F?style=for-the-badge)](CREDLY_CLOUD_PLUS)
-[![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-C8202F?style=for-the-badge)](CREDLY_NETWORK_PLUS)
-[![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-C8202F?style=for-the-badge)](CREDLY_A_PLUS)
-[![AWS Cloud Practitioner](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge)](CREDLY_AWS_CCP)
-[![LPI Linux Essentials](https://img.shields.io/badge/LPI-Linux%20Essentials-333333?style=for-the-badge)](CREDLY_LINUX_ESSENTIALS)
-[![ITIL 4 Foundation](https://img.shields.io/badge/ITIL%204-Foundation-5A2D82?style=for-the-badge)](CREDLY_ITIL)
+![Security+](https://img.shields.io/badge/CompTIA-Security%2B-C8202F?style=flat-square)
+![Cloud+](https://img.shields.io/badge/CompTIA-Cloud%2B-C8202F?style=flat-square)
+![Network+](https://img.shields.io/badge/CompTIA-Network%2B-C8202F?style=flat-square)
+![A+](https://img.shields.io/badge/CompTIA-A%2B-C8202F?style=flat-square)
+![AWS Cloud Practitioner](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=flat-square)
+![Linux Essentials](https://img.shields.io/badge/LPI-Linux%20Essentials-333333?style=flat-square)
+![ITIL 4 Foundation](https://img.shields.io/badge/ITIL%204-Foundation-5A2D82?style=flat-square)
+<br><sub>In progress: Microsoft SC-300 (Identity and Access Administrator)</sub>
 
 *In progress: Microsoft SC-300 (Identity and Access Administrator)*
 
