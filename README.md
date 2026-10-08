@@ -1,10 +1,10 @@
 # Hi, I'm Josh 👋
 
-**Identity and Access Management (IAM)** · Active Directory · Entra ID · PowerShell
-
 I build IAM labs, break them, fix them, and document all of it.
-
-🎓 B.S. Information Technology (WGU) 
+ 
+**Experience:** Identity & Access Management · Active Directory · Entra ID · PowerShell
+ 
+🎓 B.S. Information Technology, WGU
 
 ![Security+](https://img.shields.io/badge/CompTIA-Security%2B-C8202F?style=flat-square)
 ![Cloud+](https://img.shields.io/badge/CompTIA-Cloud%2B-C8202F?style=flat-square)
