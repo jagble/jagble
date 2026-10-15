@@ -34,6 +34,19 @@ A PowerShell engine that reads an HR file and gives people access on day one, ch
 **[→ Walk through the lab in six parts](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)**
 
 ---
+## 🚧 In Progress
+
+### [Zero Trust IAM Lab: Conditional Access, PIM and Access Governance in Entra ID](https://github.com/jagble/zero-trust-iam-lab)
+ 
+Picks up where the JML lab left off, closing the gaps it found: the 79-second offboarding window, standing admin access, and no request, approval or certification process.
+ 
+- **Conditional Access:** MFA everywhere, phishing-resistant MFA for admins, risk-based policies, and a leaver block
+- **Privileged Identity Management:** just-in-time admin roles with approval
+- **Access governance:** request-and-approval access packages and quarterly access reviews
+- **Incident response:** a simulated compromised account, from detection to written report
+`Conditional Access` `Zero Trust` `PIM` `Entitlement Management` `Access Reviews` `Identity Protection` `KQL`
+
+---
 
 ## Earlier Projects
 
