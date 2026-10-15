@@ -46,6 +46,13 @@ Picks up where the JML lab left off, closing the gaps it found: the 79-second of
 - **Incident response:** a simulated compromised account, from detection to written report
 `Conditional Access` `Zero Trust` `PIM` `Entitlement Management` `Access Reviews` `Identity Protection` `KQL`
 
+### [Federated SSO and PKI Lab: AD FS to Entra Migration, SAML, OIDC and Certificate-Based Authentication](https://github.com/jagble/federated-sso-pki-lab)
+ 
+Moving apps off AD FS to Entra ID, integrating SAML and OIDC apps, provisioning with SCIM, and certificate-based sign-in backed by an internal PKI, the lab version of CAC/PIV.
+ 
+`AD FS` `SAML` `OIDC` `OAuth 2.0` `SCIM` `AD CS / PKI` `Certificate-Based Authentication`
+ 
+
 ---
 
 ## Earlier Projects
