@@ -1,6 +1,6 @@
 # Hi, I'm Josh 👋
 
-I build IAM labs, break them, fix them, and document all of it.
+I build IAM Projects, break them, fix them, and document all of it.
  
 **Experience:** Identity & Access Management · Active Directory · Entra ID · PowerShell
  
