@@ -20,37 +20,12 @@ I build IAM labs, break them, fix them, and document all of it.
 
 ## ⭐ Featured Project
 
-### [Hybrid IAM Lab: Automated Joiner-Mover-Leaver for AD + Entra ID](https://github.com/jagble/hybrid-iam-jml-lab)
-
-A PowerShell engine that reads an HR file and gives people access on day one, changes it when their job changes, and takes it away when they leave, across AD and Entra ID.
-
-- **340 employees**, 22 overnight HR changes, every result matched the answer key
-- **Fired employee's password still worked at 79 seconds.** Found it, measured it, closed what I could
-- **Zero secrets:** certificate auth, 2 Graph permissions, engine runs as a gMSA
-- **Planted a hidden Domain Admin.** My review caught it, plus two problems I didn't plant
-
-`Active Directory` `Entra ID` `Entra Connect Sync` `Microsoft Graph` `PowerShell` `gMSA` `RBAC` `Separation of Duties` `Privileged Access Review`
-
-**[→ Walk through the lab in six parts](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)**
-
----
-## 🚧 In Progress
-
-### [Zero Trust IAM Lab: Conditional Access, PIM and Access Governance in Entra ID](https://github.com/jagble/zero-trust-iam-lab)
+| # | Project | What I built | Highlights | Tools | Status |
+|:---:|---|---|---|---|:---:|
+| **1** | **[Hybrid IAM Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID | • **340 employees**, 22 HR changes, every result matched the answer key<br>• Fired employee's password still worked at **79 s**. Found it, measured it, closed what I could<br>• **Zero secrets:** certificate auth, gMSA<br>• Review caught a **hidden Domain Admin** | `Active Directory` `Entra ID` `Entra Connect Sync` `Microsoft Graph` `PowerShell` `gMSA` `RBAC` `Separation of Duties` `Privileged Access Review` | ✅ Complete<br><sub>[6-part walkthrough](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)</sub> |
+| **2** | **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | • **7 Conditional Access policies** live, each tested in report-only first<br>• **Phishing-resistant MFA** for admins (passkeys)<br>• Break-glass sign-ins **alert within one 5-minute check** | `Conditional Access` `Zero Trust` `Identity Protection` `Passkeys` `Log Analytics` `KQL` `PIM` `Entitlement Management` `Access Reviews` | 🚧 2 of 8 parts |
+| **3** | **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, SCIM provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) | • Design written | `AD FS` `SAML` `OIDC` `OAuth 2.0` `SCIM` `AD CS / PKI` `Certificate-Based Auth` | 📋 Planned |
  
-Picks up where the JML lab left off, closing the gaps it found: the 79-second offboarding window, standing admin access, and no request, approval or certification process.
- 
-- **Conditional Access:** MFA everywhere, phishing-resistant MFA for admins, risk-based policies, and a leaver block
-- **Privileged Identity Management:** just-in-time admin roles with approval
-- **Access governance:** request-and-approval access packages and quarterly access reviews
-- **Incident response:** a simulated compromised account, from detection to written report
-`Conditional Access` `Zero Trust` `PIM` `Entitlement Management` `Access Reviews` `Identity Protection` `KQL`
-
-### [Federated SSO and PKI Lab: AD FS to Entra Migration, SAML, OIDC and Certificate-Based Authentication](https://github.com/jagble/federated-sso-pki-lab)
- 
-Moving apps off AD FS to Entra ID, integrating SAML and OIDC apps, provisioning with SCIM, and certificate-based sign-in backed by an internal PKI, the lab version of CAC/PIV.
- 
-`AD FS` `SAML` `OIDC` `OAuth 2.0` `SCIM` `AD CS / PKI` `Certificate-Based Authentication`
  
 
 ---
