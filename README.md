@@ -18,16 +18,21 @@ I build IAM labs, break them, fix them, and document all of it.
 
 ---
 
-## ⭐ Featured Project
+## ⭐ Featured Projects
 
-| # | Project | What I built | Highlights | Tools | Status |
-|:---:|---|---|---|---|:---:|
-| **1** | **[Hybrid IAM Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID | • **340 employees**, 22 HR changes, every result matched the answer key<br>• Fired employee's password still worked at **79 s**. Found it, measured it, closed what I could<br>• **Zero secrets:** certificate auth, gMSA<br>• Review caught a **hidden Domain Admin** | `Active Directory` `Entra ID` `Entra Connect Sync` `Microsoft Graph` `PowerShell` `gMSA` `RBAC` `Separation of Duties` `Privileged Access Review` | ✅ Complete<br><sub>[6-part walkthrough](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)</sub> |
-| **2** | **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | • **7 Conditional Access policies** live, each tested in report-only first<br>• **Phishing-resistant MFA** for admins (passkeys)<br>• Break-glass sign-ins **alert within one 5-minute check** | `Conditional Access` `Zero Trust` `Identity Protection` `Passkeys` `Log Analytics` `KQL` `PIM` `Entitlement Management` `Access Reviews` | 🚧 2 of 8 parts |
-| **3** | **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, SCIM provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) | • Design written | `AD FS` `SAML` `OIDC` `OAuth 2.0` `SCIM` `AD CS / PKI` `Certificate-Based Auth` | 📋 Planned |
+| Project | What I built | Status |
+|---|---|:---:|
+| **[Hybrid IAM Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID | ✅ Complete<br><sub>[6-part walkthrough](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)</sub> |
+| **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | 🚧 2 of 8 parts |
+| **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, SCIM provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) | 📋 Planned |
  
+**Hybrid IAM Lab:** `Active Directory` `Entra ID` `Entra Connect Sync` `Microsoft Graph` `PowerShell` `gMSA` `RBAC` `Separation of Duties` `Privileged Access Review`
  
+**Zero Trust IAM Lab:** `Conditional Access` `Zero Trust` `Identity Protection` `Passkeys` `Log Analytics` `KQL` `PIM` `Entitlement Management` `Access Reviews`
+ 
+**Federated SSO and PKI Lab:** `AD FS` `SAML` `OIDC` `OAuth 2.0` `SCIM` `AD CS / PKI` `Certificate-Based Auth`
 
+ 
 ---
 
 ## Earlier Projects
