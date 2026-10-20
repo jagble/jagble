@@ -34,7 +34,7 @@ I build IAM Projects, break them, fix them, and document all of it.
 | Area | What I've used |
 |---|---|
 | **Identity & Access Management** | `Active Directory` `Entra ID` `Entra Connect Sync` `Hybrid Identity` `RBAC` `JML Lifecycle` `Separation of Duties` `Group Policy` |
-| **Access Security (Zero Trust)** | `Conditional Access` `MFA` `Passkeys` `Phishing-Resistant MFA` `Identity Protection` `Break-Glass Accounts` `Named Locations` |
+| **Zero Trust** | `Conditional Access` `MFA` `Passkeys` `Phishing-Resistant MFA` `Identity Protection` `Break-Glass Accounts` `Named Locations` |
 | **Privileged Access** | `PIM` `Just-in-Time Access` `Approval Workflows` `Admin Tiering` `Delegated Administration` `Privileged Access Review` `gMSA` |
 | **Identity Governance** | `Entitlement Management` `Access Packages` `Multi-Stage Approvals` `Time-Limited Access` `SoD Rules` |
 | **Automation** | `PowerShell` `Microsoft Graph API` `Certificate-Based App Auth` `Python` |
