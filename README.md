@@ -23,10 +23,10 @@ I build IAM Projects, break them, fix them, and document all of it.
 | Project | What I built | Status |
 |---|---|:---:|
 | **[Hybrid IAM JML Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID | ✅ Complete<br><sub>[6-part walkthrough](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)</sub> |
-| **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | 🚧 2 of 8 parts |
+| **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | 🚧 4 of 8 parts |
 | **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, SCIM provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) | 📋 Planned |
  
-**Hybrid IAM Lab:** `Active Directory` `Entra ID` `Entra Connect Sync` `Microsoft Graph` `PowerShell` `gMSA` `RBAC` `Separation of Duties` `Privileged Access Review`
+**Hybrid IAM JML Lab:** `Active Directory` `Entra ID` `Entra Connect Sync` `Microsoft Graph` `PowerShell` `gMSA` `RBAC` `Separation of Duties` `Privileged Access Review`
  
 **Zero Trust IAM Lab:** `Conditional Access` `Zero Trust` `Identity Protection` `Passkeys` `Log Analytics` `KQL` `PIM` `Entitlement Management` `Access Reviews`
  
