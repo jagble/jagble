@@ -44,11 +44,6 @@ Problems IAM teams deal with, what I did about each one, and where to see it.
 | **Someone uses the emergency account or weakens a security policy** | Email alerts on any break-glass sign-in and any change to Conditional Access policies or their exclusion groups | [Conditional Access Monitoring & Alerts](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.2-conditional-access/README.md#10-alerts) |
  
 ---
-
----
-
-**Core IAM competencies demonstrated:** Identity Lifecycle Management (Joiner-Mover-Leaver), Automated Provisioning, Active Directory, Microsoft Entra ID, Role-Based Access Control (RBAC), Privileged Identity Management (PIM), Access Reviews, Access Packages, Separation of Duties (SoD), Conditional Access, and PowerShell Automation.
----
  
 ## 🛠️ Skills & Tools
  
