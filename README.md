@@ -26,8 +26,29 @@ I build IAM Projects, break them, fix them, and document all of it.
 | **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | 🚧 5 of 8 parts |
 | **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, SCIM provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) | 📋 Planned |
 
+---
 
+## 🎯 Real-World Scenarios
+ 
+Problems IAM teams deal with, what I did about each one, and where to see it.
+ 
+| Scenario | What I did | Evidence |
+|---|---|---|
+| **A fired employee can still get in** | Measured how long a terminated user kept cloud access: the old password still worked at 79 seconds. Made offboarding revoke sessions and force a sync, cutting the cloud disable lag from ~29 minutes to ~3 | [Leaver Offboarding & Exposure Window](https://github.com/jagble/hybrid-iam-jml-lab/blob/main/parts/1.5-lifecycle-automation/README.md#5-leaver-and-the-exposure-window) |
+| **300 new hires start on the same day** | Created 306 accounts in one run from an HR file, each with the right role groups, checked against a pre-written answer key | [Provisioning Scale test](https://github.com/jagble/hybrid-iam-jml-lab/blob/main/parts/1.5-lifecycle-automation/README.md#9-scale-test-340-people) |
+| **A Domain Admin hidden in a nested group** | Built a review that follows group nesting. It found the Domain Admin path I planted, plus two problems I didn't plant | [Privileged access review](https://github.com/jagble/hybrid-iam-jml-lab/blob/main/parts/1.6-security-review/README.md) |
+| **One person can create a vendor and pay it** | Blocked anyone holding both Finance and Accounts Payable access: found by a script in Project 1, refused at request time in Project 2 | [Script](https://github.com/jagble/hybrid-iam-jml-lab/blob/main/parts/1.5-lifecycle-automation/README.md#7-separation-of-duties) · [Lifecycle SoD Enforcement](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.4-access-packages/README.md#4-finance-payables-and-separation-of-duties) |
+| **Admins hold Global Admin 24/7** | Removed standing admin access, including mine. Global Admin now needs MFA, a reason and a second person's approval, and expires after 1 hour | [Privileged Identity Management](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.3-privileged-identity-management/README.md) |
+| **An engineer needs temporary access to sensitive program data** | Request goes to the manager, then the program manager. Access is granted automatically and ends after 90 days | [Access request](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.4-access-packages/README.md#6-test-1-chris-requests-radar) |
+| **A helpdesk tech kept admin rights after a ticket** | A quarterly review flagged the extra role, Security denied it, and it was removed automatically | [Access review & Remediation](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.5-access-reviews/README.md#5-test-1-monica-reviews-admin-roles) |
+| **Someone uses the emergency account or weakens a security policy** | Email alerts on any break-glass sign-in and any change to Conditional Access policies or their exclusion groups | [Conditional Access Monitoring & Alerts](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.2-conditional-access/README.md#10-alerts) |
+ 
+---
 
+---
+
+**Core IAM competencies demonstrated:** Identity Lifecycle Management (Joiner-Mover-Leaver), Automated Provisioning, Active Directory, Microsoft Entra ID, Role-Based Access Control (RBAC), Privileged Identity Management (PIM), Access Reviews, Access Packages, Separation of Duties (SoD), Conditional Access, and PowerShell Automation.
+---
  
 ## 🛠️ Skills & Tools
  
