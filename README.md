@@ -20,10 +20,12 @@ I build IAM Projects, break them, fix them, and document all of it.
 
 ## ⭐ Featured Projects
 
+Labs on one fictional defense contractor, **Potomac Defense Systems**. Each picks up the gaps the last one found.
+
 | Project | What I built | Status |
 |---|---|:---:|
 | **[Hybrid IAM JML Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID | ✅ Complete<br><sub>[6-part walkthrough](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)</sub> |
-| **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | 🚧 5 of 8 parts |
+| **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | 🚧 6 of 8 parts |
 | **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, SCIM provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) | 📋 Planned |
 
 ---
@@ -42,6 +44,7 @@ Problems IAM teams deal with, what I did about each one, and where to see it.
 | **An engineer needs temporary access to sensitive program data** | Request goes to the manager, then the program manager. Access is granted automatically and ends after 90 days | [Access request](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.4-access-packages/README.md#6-test-1-chris-requests-radar) |
 | **A helpdesk tech kept admin rights after a ticket** | A quarterly review flagged the extra role, Security denied it, and it was removed automatically | [Access review & Remediation](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.5-access-reviews/README.md#5-test-1-monica-reviews-admin-roles) |
 | **Someone uses the emergency account or weakens a security policy** | Email alerts on any break-glass sign-in and any change to Conditional Access policies or their exclusion groups | [Conditional Access Monitoring & Alerts](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.2-conditional-access/README.md#10-alerts) |
+| **An employee's account is compromised** | Rebuilt the timeline from the logs, confirmed one account was affected, and contained it in 11 minutes. Found that passing MFA marked the risk as resolved, and added an alert for it | [Incident response](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/parts/2.6-incident-response/README.md) · [Incident report](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/docs/03-incident-report-maria-lopez.md) |
  
 ---
  
