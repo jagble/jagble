@@ -24,9 +24,9 @@ Labs on one fictional defense contractor, **Potomac Defense Systems**. Each pick
 
 | Project | What I built | Status |
 |---|---|:---:|
-| **[Hybrid IAM JML Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID | ✅ Complete<br><sub>[6-part walkthrough](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)</sub> |
-| **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | 🚧 6 of 8 parts |
-| **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, SCIM provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) | 📋 Planned |
+| **[Hybrid IAM JML Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID | ✅ Complete<br><sub>[walkthrough](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)</sub> |
+| **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | ✅ Complete<br><sub>[walkthrough](https://github.com/jagble/zero-trust-iam-lab#parts)</sub> |
+| **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, SCIM provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) | 📋 In Progress |
 
 ---
 
@@ -45,6 +45,7 @@ Problems IAM teams deal with, what I did about each one, and where to see it.
 | **A helpdesk tech kept admin rights after a ticket** | A quarterly review flagged the extra role, Security denied it, and it was removed automatically | [Access review & Remediation](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.5-access-reviews/README.md#5-test-1-monica-reviews-admin-roles) |
 | **Someone uses the emergency account or weakens a security policy** | Email alerts on any break-glass sign-in and any change to Conditional Access policies or their exclusion groups | [Conditional Access Monitoring & Alerts](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.2-conditional-access/README.md#10-alerts) |
 | **An employee's account is compromised** | Rebuilt the timeline from the logs, confirmed one account was affected, and contained it in 11 minutes. Found that passing MFA marked the risk as resolved, and added an alert for it | [Incident response](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/parts/2.6-incident-response/README.md) · [Incident report](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/docs/03-incident-report-maria-lopez.md) |
+| **A forgotten app has a secret and read access to the whole directory** | Inventoried every app and its credentials, found an Entra Connect app with Tier 0 rights nobody owned, deleted the risky app, and moved reporting to a managed identity with no stored credential | [Non-human identities](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/parts/2.8-non-human-identities/README.md) · [Inventory](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/docs/05-nhi-inventory.md) |
  
 ---
  
