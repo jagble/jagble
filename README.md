@@ -72,7 +72,7 @@ Problems IAM teams deal with, what I did about each one, and where to see it.
 
 | Project | What I built |
 |---|---|
-| **[DNS Incident Response & Monitoring Automation](https://github.com/jagble/dns-incident-response-automation)**<br><sub>Final course, B.S. IT (WGU)</sub> | Python that finds devices hijacked by a rogue DNS server, emails stakeholders, opens helpdesk tickets through a REST API and fixes every device over SSH. Then a monitor checks 16 devices every 30 seconds and fixes outages and DNS tampering on its own |
+| **[DNS Incident Response & Monitoring Automation](https://github.com/jagble/dns-incident-response-automation)** | Python that finds devices hijacked by a rogue DNS server, emails stakeholders, opens helpdesk tickets through a REST API and fixes every device over SSH. Then a monitor checks 16 devices every 30 seconds and fixes outages and DNS tampering on its own |
 | **[Active Directory Lab](https://github.com/jagble/configure-ad)** | Windows Server domain controller in Azure, 10,000+ users bulk-created with PowerShell, account lockout and access policies with Group Policy |
 | **[osTicket Help Desk](https://github.com/jagble/osticket-prereqs)** | Ticketing system with SLA tiers, routing and escalation, worked from intake to resolution · [Setup](https://github.com/jagble/osticket-prereqs) · [Configuration](https://github.com/jagble/osticket-post-installaion) · [Ticket Lifecycle](https://github.com/jagble/osticket-ticket-simulation) |
 | **[Azure Networking & Packet Analysis](https://github.com/jagble/Azure-Compute-and-Networking)** | Azure VMs and Wireshark to inspect DNS, DHCP, ICMP, RDP and SSH traffic and test Network Security Group rules |
