@@ -46,6 +46,8 @@ Problems IAM teams deal with, what I did about each one, and where to see it.
 | **Someone uses the emergency account or weakens a security policy** | Email alerts on any break-glass sign-in and any change to Conditional Access policies or their exclusion groups | [Conditional Access Monitoring & Alerts](https://github.com/jagble/zero-trust-iam-lab/blob/main/parts/2.2-conditional-access/README.md#10-alerts) |
 | **An employee's account is compromised** | Rebuilt the timeline from the logs, confirmed one account was affected, and contained it in 11 minutes. Found that passing MFA marked the risk as resolved, and added an alert for it | [Incident response](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/parts/2.6-incident-response/README.md) · [Incident report](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/docs/03-incident-report-maria-lopez.md) |
 | **A forgotten app has a secret and read access to the whole directory** | Inventoried every app and its credentials, found an Entra Connect app with Tier 0 rights nobody owned, deleted the risky app, and moved reporting to a managed identity with no stored credential | [Non-human identities](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/parts/2.8-non-human-identities/README.md) · [Inventory](https://github.com/jagble/zero-trust-iam-lab/blob/HEAD/docs/05-nhi-inventory.md) |
+| **Moving an app to a new identity provider could lock out every user** | Found that AD usernames use a non-routable suffix, so every user's cloud username is different. Connected ServiceNow over SAML using employee ID as the identifier instead, so nobody's identity changes in the migration, and limited access to one group, enforced at the identity provider | [SAML sign-in](https://github.com/jagble/federated-sso-pki-lab/blob/HEAD/parts/3.4-saml-adfs/README.md#1-choosing-the-identifier) |
+
  
 ---
  
@@ -66,10 +68,11 @@ Problems IAM teams deal with, what I did about each one, and where to see it.
  
 ---
 
-## Earlier Projects
+## Additional Projects
 
 | Project | What I built |
 |---|---|
+| **[DNS Incident Response & Monitoring Automation](https://github.com/jagble/dns-incident-response-automation)**<br><sub>Final course, B.S. IT (WGU)</sub> | Python that finds devices hijacked by a rogue DNS server, emails stakeholders, opens helpdesk tickets through a REST API and fixes every device over SSH. Then a monitor checks 16 devices every 30 seconds and fixes outages and DNS tampering on its own |
 | **[Active Directory Lab](https://github.com/jagble/configure-ad)** | Windows Server domain controller in Azure, 10,000+ users bulk-created with PowerShell, account lockout and access policies with Group Policy |
 | **[osTicket Help Desk](https://github.com/jagble/osticket-prereqs)** | Ticketing system with SLA tiers, routing and escalation, worked from intake to resolution · [Setup](https://github.com/jagble/osticket-prereqs) · [Configuration](https://github.com/jagble/osticket-post-installaion) · [Ticket Lifecycle](https://github.com/jagble/osticket-ticket-simulation) |
 | **[Azure Networking & Packet Analysis](https://github.com/jagble/Azure-Compute-and-Networking)** | Azure VMs and Wireshark to inspect DNS, DHCP, ICMP, RDP and SSH traffic and test Network Security Group rules |
