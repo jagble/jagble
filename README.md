@@ -13,20 +13,29 @@ I build IAM Projects, break them, fix them, and document all of it.
 ![AWS Cloud Practitioner](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=flat-square)
 ![Linux Essentials](https://img.shields.io/badge/LPI-Linux%20Essentials-333333?style=flat-square)
 ![ITIL 4 Foundation](https://img.shields.io/badge/ITIL%204-Foundation-5A2D82?style=flat-square)
-<br><sub>In progress: Microsoft SC-300 (Identity and Access Administrator)</sub>
+
 
 
 ---
 
 ## ⭐ Featured Projects
 
-Labs on one fictional defense contractor, **Potomac Defense Systems**. Each picks up the gaps the last one found.
+| Project | What I built |
+|---|---|
+| **[Hybrid IAM JML Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID |
+| **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response |
+| **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, automatic provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) |
+| **[DNS Incident Response & Monitoring Automation](https://github.com/jagble/dns-incident-response-automation)** | Python that finds devices hijacked by a rogue DNS server, emails stakeholders, opens helpdesk tickets through a REST API and fixes every device over SSH. Then a monitor checks 16 devices every 30 seconds and fixes outages and DNS tampering on its own |
 
-| Project | What I built | Status |
-|---|---|:---:|
-| **[Hybrid IAM JML Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID | ✅ Complete<br><sub>[walkthrough](https://github.com/jagble/hybrid-iam-jml-lab#what-i-built)</sub> |
-| **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response | ✅ Complete<br><sub>[walkthrough](https://github.com/jagble/zero-trust-iam-lab#parts)</sub> |
-| **[Federated SSO and PKI Lab](https://github.com/jagble/federated-sso-pki-lab)**<br><sub>AD FS to Entra Migration, SAML, OIDC and Certificate-Based Auth</sub> | Moves apps off AD FS to Entra ID, adds SAML and OIDC apps, SCIM provisioning, and certificate sign-in backed by an internal PKI (the lab version of CAC/PIV) | 🔨 In progress<br><sub>[4 of 8 parts](https://github.com/jagble/federated-sso-pki-lab#parts)</sub> |
+---
+
+## Additional Projects
+ 
+| Project | What I built |
+|---|---|
+| **[Active Directory Lab](https://github.com/jagble/configure-ad)** | Windows Server domain controller in Azure, 10,000+ users bulk-created with PowerShell, account lockout and access policies with Group Policy |
+| **[osTicket Help Desk](https://github.com/jagble/osticket-prereqs)** | Ticketing system with SLA tiers, routing and escalation, worked from intake to resolution · [Setup](https://github.com/jagble/osticket-prereqs) · [Configuration](https://github.com/jagble/osticket-post-installaion) · [Ticket Lifecycle](https://github.com/jagble/osticket-ticket-simulation) |
+| **[Azure Networking & Packet Analysis](https://github.com/jagble/Azure-Compute-and-Networking)** | Azure VMs and Wireshark to inspect DNS, DHCP, ICMP, RDP and SSH traffic and test Network Security Group rules |
 
 ---
 
@@ -64,18 +73,6 @@ Problems IAM teams deal with, what I did about each one, and where to see it.
 | **Cloud & Infrastructure** | `Microsoft Azure` `Azure VMs` `Windows Server` `DNS` `DHCP` `Network Security Groups` `Wireshark` |
 | **IT Service Management** | `osTicket` `SLAs` `Ticket Routing & Escalation` `ITIL 4` |
  
-
- 
----
-
-## Additional Projects
-
-| Project | What I built |
-|---|---|
-| **[DNS Incident Response & Monitoring Automation](https://github.com/jagble/dns-incident-response-automation)** | Python that finds devices hijacked by a rogue DNS server, emails stakeholders, opens helpdesk tickets through a REST API and fixes every device over SSH. Then a monitor checks 16 devices every 30 seconds and fixes outages and DNS tampering on its own |
-| **[Active Directory Lab](https://github.com/jagble/configure-ad)** | Windows Server domain controller in Azure, 10,000+ users bulk-created with PowerShell, account lockout and access policies with Group Policy |
-| **[osTicket Help Desk](https://github.com/jagble/osticket-prereqs)** | Ticketing system with SLA tiers, routing and escalation, worked from intake to resolution · [Setup](https://github.com/jagble/osticket-prereqs) · [Configuration](https://github.com/jagble/osticket-post-installaion) · [Ticket Lifecycle](https://github.com/jagble/osticket-ticket-simulation) |
-| **[Azure Networking & Packet Analysis](https://github.com/jagble/Azure-Compute-and-Networking)** | Azure VMs and Wireshark to inspect DNS, DHCP, ICMP, RDP and SSH traffic and test Network Security Group rules |
 
 ---
 
