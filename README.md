@@ -20,7 +20,7 @@ I build IAM Projects, break them, fix them, and document all of it.
 
 ## ⭐ Featured Projects
 
-| Project | What I built |
+| Project | Description |
 |---|---|
 | **[Hybrid IAM JML Lab](https://github.com/jagble/hybrid-iam-jml-lab)**<br><sub>Automated Joiner-Mover-Leaver for AD + Entra ID</sub> | A PowerShell engine that gives people access on day one, changes it when their job changes, and removes it when they leave, across AD and Entra ID |
 | **[Zero Trust IAM Lab](https://github.com/jagble/zero-trust-iam-lab)**<br><sub>Conditional Access, PIM and Access Governance in Entra ID</sub> | Closes Project 1's gaps: Conditional Access, just-in-time admin, request-and-approval access, access reviews, incident response |
